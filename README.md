@@ -21,8 +21,8 @@ You are fully responsible for the setup, and using and running this script.
 6. [Create an Amazon S3 Bucket to store images uploaded from Raspberry Pi ](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
 7. Download rekognition_demo.py which contains the Python script that I made for this demo on the Raspberry Pi
 8. Open rekognition_demo.py with a text editor:
-⋅⋅8.1 Change the variable aws_region to the region you set in step 5 
-⋅⋅18.2 Change the variable bucket_name to the name of the S3 bucket created in step 6.
-⋅⋅18.3 Save the changes and close the file.
+⋅⋅⋅8.1 Change the variable aws_region to the region you set in step 5 
+⋅⋅⋅8.2 Change the variable bucket_name to the name of the S3 bucket created in step 6.
+⋅⋅⋅8.3 Save the changes and close the file.
 9. Run rekognition_demo.py script from terminal using the command: python rekognition_demo.py
 
