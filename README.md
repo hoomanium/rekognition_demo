@@ -9,16 +9,16 @@ You are fully responsible for the setup, and using and running this script.
 # Demo Setup: 
 
 ## Hardware
-- Raspberry Pi 3.0 
-- Raspberry Pi Camera Module V2
+- [Raspberry Pi 3.0](http://a.co/dFSQNyF)
+- [Raspberry Pi Camera Module V2](http://a.co/i7atlm4)
 
 ## Configuration
-1. Setup Raspberry Pi
-2. Install Raspberry Pi Camera
-4. Install AWS CLI on Raspberry Pi
-5.  Install AWS SDK for Python (Boto3)
-5. Configure AWS CLI with your Security Credentials and Region
-6. Create an Amazon S3 Bucket to store images uploaded from Raspberry Pi
+1. [Setup Raspberry Pi](https://www.raspberrypi.org/documentation/)
+2. [Install Raspberry Pi Camera](https://projects.raspberrypi.org/en/projects/getting-started-with-picamera)
+4. [Install AWS CLI on Raspberry Pi](https://docs.aws.amazon.com/cli/latest/userguide/awscli-install-linux.html)
+5. [Install AWS SDK for Python (Boto3)](https://aws.amazon.com/sdk-for-python/)
+5. [Configure AWS CLI with your Security Credentials and Region](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-started.html)
+6. [Create an Amazon S3 Bucket to store images uploaded from Raspberry Pi ](https://docs.aws.amazon.com/AmazonS3/latest/gsg/CreatingABucket.html)
 7. Download rekognition_demo.py which contains the Python script that I made for this demo on the Raspberry Pi
 8. Open rekognition_demo.py with a text editor:
 	8.1 Change the variable aws_region to the region you set in step 5 
